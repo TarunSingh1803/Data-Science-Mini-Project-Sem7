@@ -1,5 +1,0 @@
-plotly
-pandas
-matplotlib
-seaborn
-scikit-learn
