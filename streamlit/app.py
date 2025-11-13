@@ -368,7 +368,7 @@ def subregion_insights(sub_region_name, df):
 @st.cache_data
 def load_data():
     try:
-        data = pd.read_csv('data/Cleaned_categories.csv')
+        data = pd.read_csv('Cleaned_categories.csv')
         return data
     except FileNotFoundError:
         st.error("Please make sure 'Cleaned_categories.csv' is in the data folder.")
